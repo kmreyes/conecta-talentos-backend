@@ -1,10 +1,10 @@
 export class Estudiante{
     constructor(
-        id: number,
-        nombre: string,
-        apellidos: string,
-        edad: number,
-        profesion: string,
-        email: string
+        public id: number,
+        public nombre: string,
+        public apellidos: string,
+        public edad: number,
+        public profesion: string,
+        public email: string
     ){}
 }
